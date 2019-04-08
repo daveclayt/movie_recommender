@@ -1,0 +1,11 @@
+
+<h1>Recommendations</h1>
+
+<p>Your query was: {{ query }}</p>
+  <ul>
+    {% for m in movies %}
+    <li>{{ m }}</li>
+    {% endfor %}
+  </ul>
+
+<a href="/">go back</a>

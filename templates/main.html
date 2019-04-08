@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>the dave movie database</title>
+  </head>
+  <body>
+    <h1>{{ title }}</h1>
+
+<img src="/static/dmdb.jpg" width="200">
+
+    <p>Enter three movies you like:</p>
+
+    <form action="/movies" method="GET">
+      <input name="movie1"> <br>
+      <input name="movie2"> <br>
+      <input name="movie3"> <br>
+      <input type="submit" value="get recommendations">
+    </form>
+  </body>
+</html>
